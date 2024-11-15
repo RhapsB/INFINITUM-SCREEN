@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+
+*{
+    font-family: "Varela Round", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: url("../img/mv-header.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 40px;
+}
+
+nav .Logo{
+    width: 270px;
+    transition: .7s;
+}
+
+nav .Logo:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+header nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul a{
+    color: #fff;
+    margin: 0 12px;
+    padding: 10px 50px;
+    text-decoration: none;
+    font-size: 13px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+header ul a:hover{
+    background: #fff;
+    color: #000;
+}
+
+header button{
+    background: #c94117;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+header button:hover{
+    background: #fff;
+    color: #000;
+}
+
+#hero{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: auto;
+}
+
+#hero img{
+    width: 400px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+#hero img:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+
+#hero .fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hero h2{
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#hero h2 span{
+    font-size: 32px;
+}
+
+#hero h1{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#hero button{
+    background: #c94117;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 26px;
+    border-radius: 10px;
+}
+
+#hero button:hover{
+    background: #fff;
+    color: #000;
+}
+
+#theater{
+    width: 100%;
+    position: relative;
+    background: url("../img/mv-theater.jpeg");
+    padding: 100px 0px;
+    text-align: left;
+    margin: -120px auto;
+    color: #fff;
+}
+
+#theater .info{
+    padding-left: 10%;
+}
+
+#theater h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#theater .tabs{
+    display: flex;
+}
+
+#theater .tabs p{
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+#theater .fila{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#theater .fila article img {
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#theater .fila article img:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+
+#theater .fila article p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin-top: 10px; 
+    text-align: center;
+}
+
+#theater article{
+    margin: 50px 50px;
+    position: relative;
+}
+
+#tv{
+    width: 100%;
+    position: relative;
+    background: url("../img/mv-theater.jpeg");
+    padding: 100px 0px;
+    text-align: left;
+    margin: -120px auto;
+    color: #fff;
+}
+
+#tv .info{
+    padding-left: 10%;
+}
+
+#tv h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#tv .tabs{
+    display: flex;
+}
+
+#tv .tabs p{
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+#tv .fila{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#tv .fila article img {
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#tv .fila article img:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+
+#tv .fila article p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin-top: 10px; 
+    text-align: center;
+}
+
+#tv article{
+    margin: 50px 50px;
+    position: relative;
+}
+
+#celebrities{
+    width: 100%;
+    padding: 120px 0 50px;
+    background: url("../img/bg-celebrities.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#celebrities h2{
+    color: #fff;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#celebrities .fila{
+    display: flex;
+    justify-content: center;
+}
+
+#celebrities article{
+    margin: 30px 180px;
+    color: #fff;
+    transition: .5s;
+}
+
+#celebrities article:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+
+#celebrities h3{
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#news{
+    width: 100%;
+    position: relative;
+    background: url("../img/mv-theater.jpeg");
+    padding: 100px 0px;
+    text-align: left;
+    margin: -120px auto;
+    color: #fff;
+    margin-bottom: auto;
+}
+
+#news .info{
+    padding-left: 10%;
+}
+
+#news h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#news .fila{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+#news .fila article img {
+    width: 300px;
+    height: auto;
+    margin: 2px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+#news .fila article img:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+
+#news .fila article p {
+    font-size: 18px; 
+    line-height: 1.6; 
+    margin-top: 10px; 
+    text-align: center;
+}
+
+#news article{
+    margin: 50px 50px;
+    position: relative;
+}
+
+#contacto{
+    width: 100%;
+    text-align: center;
+    background: url("../img/contacto.png");
+    position: relative;
+    padding: 80px 0;
+}
+
+#contacto h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#contacto p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+#contacto form{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacto form input{
+    width: 38%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contacto form select{
+    width: 43%;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+#contacto button{
+    background: #ebebcd;
+    color: #000;
+    font-size: 22px;
+    padding: 12px 50px;
+    border-radius: 6px;
+    transition: .5s;
+}
+
+#contacto button:hover{
+    transform: scale(.8);
+    filter: grayscale(1);
+}
+
+footer{
+    background: #000;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
